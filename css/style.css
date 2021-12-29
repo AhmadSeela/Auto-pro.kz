@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Clickuper";
+  src: url("../fonts/Clickuper.eot");
+  src: local("☺"), url("../Fonts/Clickuper.woff") format("woff"), url("../Fonts/Clickuper.ttf") format("truetype"), url("../Fonts/Clickuper.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/Calibri.eot");
+  src: local("☺"), url("../Fonts/Calibri.woff") format("woff"), url("../Fonts/Calibri.ttf") format("truetype"), url("../Fonts/Calibri.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bivoac";
+  src: url("../fonts/Bivoac Reguler Demo.eot");
+  src: local("☺"), url("../Fonts/Bivoac Reguler Demo.woff") format("woff"), url("../Fonts/Bivoac Reguler Demo.ttf") format("truetype"), url("../Fonts/Bivoac Reguler Demo.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calibri Regular";
+  src: url("../Fonts/Calibri Regular.eot");
+  src: local("☺"), url("../Fonts/Calibri Regular.woff") format("woff"), url("../Fonts/Calibri Regular.ttf") format("truetype"), url("../Fonts/Calibri Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	color: black;
+}
+#navbar-toggler-icon{
+	color: white;
+}
+.navbar-dark .navbar-brand{
+	font-family: "Bivoac";
+}
+.navbar-toggler{
+	border: none;
+}
+.navbar {
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	font-size: 8pt;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:  rgba(255,255,255,.5);
+}
+.nav-item{
+	margin-right: 30px;
+}
+.jumbotron{
+    background-image: url(../img/action_bg.jpg);
+    height: 100vh;
+	background-size: cover;
+	background-position: right;
+	background-attachment: fixed;
+	margin-bottom: 0;
+}
+#header_form_wrpper{
+	padding-right: 5%;
+	margin: 0;
+}
+#header_form_wrpper_1{
+	height: 70%;
+}
+#header_form_head{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	height: 40%; 
+	font-family: "Clickuper";
+	font-size: 25px;
+	margin-bottom: 2rem;
+}
+header form{
+	height: 50%;
+}
+#header_input{
+	height: 100%;
+	border-radius: 0;
+	opacity: 50%;
+}
+#header_input:focus{
+	opacity: 80%;
+}
+#header_input::placeholder{
+  color: black;
+  opacity: 100%;
+  font-family: "Calibri";
+}
+header .form-group{
+	height: 25%;
+}
+#header_form_cost{
+	z-index: 5;
+	font-family: "Clickuper";
+	font-size: 15px;
+	height: 9%;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 41%;
+	background-color: #e8b10b;
+	width: 20%;
+	padding-left: 2%;
+	box-shadow: -1px 5px 4px 2px rgb(0,0,0,0.8);
+	right: 15px;
+}
+.btn-light{
+ 	font-family: "Calibri";
+ 	font-size: 18px;
+ 	width: 200px;
+}
+h1{
+	font-family: "Clickuper";
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10%;
+}
+main{
+	height: 500vh;
+}
+.effects{
+	height: 100vh;
+	padding-top: 10%;
+}
+#effects_wrapper{
+	height: 90%;
+}
+#main_img{
+	width: 100%
+}
+#main_text{
+	 font-family: "Calibri Regular";
+}
+.solution{
+	height: 100vh;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+#solution_img{
+	background-image: url(../img/man-polish-a-car-in-a-garage.jpg);
+	background-size: cover;
+	background-position: left;
+	height: 100%;
+}
+.svg-inline--fa {
+	margin-top: 5px;
+}
+.row{
+	margin-right: 0px;
+	margin-left:  0px;
+}
+#solution_text {
+	font-family: "Calibri Regular";
+	color: white;
+	height: 70%;
+}
+#solution_text span{
+	font-family: "Calibri";
+	color: #e8b10b;
+}
+#solution_text svg{
+	color: white;
+}
+@media (max-width: 992px){
+	#header_form_cost{
+		width: 28%;
+	}
+}
+@media (max-width: 768px){
+	#header_form_wrpper{
+		padding-right: 0;
+		justify-content: center !important;
+	}
+	.jumbotron{
+		background-position: 47%;
+	}
+	#header_form_cost{
+		width: 40%;
+	}
+	#solution_text span{
+		height: 50%;
+	}
+	#solution_img{
+		height: 50%;
+	}
+}
+@media (max-width: 576px){
+
+}

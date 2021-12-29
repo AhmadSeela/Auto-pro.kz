@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Auto-pro</title>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="fontawesome-free-5.15.1-web/js/all.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand">Auto_pro</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<i class="fas fa-bars" id="navbar-toggler-icon"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link">Что происходит с вашей машиной ?</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Решение проблемы</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header class="jumbotron jumbotron-fluid ">
+		<div class="row justify-content-start align-items-center text-center" id="header_form_cost">Всего за:</br>39990тг</div>
+		<div class="row align-items-center justify-content-end h-100" id="header_form_wrpper">
+			<div class="col-xl-4 col-md-5 col-sm-8 col-10" id="header_form_wrpper_1">
+				<div class="text-center row align-items-center justify-content-center" id="header_form_head">полировка</br>+</br>керамика</div>
+				<form>
+					<div class="form-group" >
+						<input type="text" id="header_input" class="form-control" placeholder="Имя" required>
+					</div>
+					<div class="form-group">
+						<input type="tel" id="header_input" class="form-control" placeholder="+7" pattern="[0-9]{10}" required>
+					</div>
+					<div class="form-group row justify-content-center">
+						<button type="submit" class="btn btn-light btn-lg">Записатся</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<main class="container-fluid p-0">
+		<div class="effects container-fluid">
+			<h1>что происходит с вашей машиной ?</h1>
+			<div class="row align-items-sm-center" id="effects_wrapper">
+				<div class="container col-sm-3 col-12 ">
+					<div class="row h-100 align-items-center">
+						<img src="img/scratches.jpg" alt="" id="main_img" class="col-6 col-sm-12 mb-3">
+						<div class="col-6 col-sm-12" id="main_text">Ветки, камни идругие факторы внешней среды оставляют царапены каторые портят внешни вид авто...</div>
+					</div>
+				</div>
+				<div class="container col-sm-3 col-12" >
+					<div class="row h-100 align-items-center">
+						<img src="img/stains.jpg" alt="" id="main_img" class="col-6 order-2 col-sm-12 order-sm-1 mb-3">
+						<div class="col-6 order-1 text-right text-sm-left col-sm-12 order-sm-2" id="main_text">Не правильный уход, не своевременная мытье кузова вызывает не отмывающееся пятна...</div>
+					</div>
+				</div>
+				<div class="container col-sm-3 col-12" id="main_img">
+					<div class="row h-100 align-items-center">
+						<img src="img/poop.jpg" alt="" id="main_img" class="col-6 col-sm-12 mb-3">
+						<div class="col-6 col-sm-12" id="main_text">Птичи помет разъедает краску, что вызывает коррозию...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="solution container-fluid pl-0 pr-0 bg-secondary">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="col-md-5 col-12" id="solution_img"></div>
+					<div class="container col-md-5 col-12" id="solution_text" >
+						<h1 class="mb-md-5 mt-2">Решение проблемы</h1>
+						<div class="row justify-content-center "><i class="fas fa-check"></i><div class="w-75 pb-md-5 pb-2 pl-1"><span>Абразивная полировка</span> снимет повреждённый слой лака в несколько микрон и ваша машина снова будет блестеть.</div></div>
+						<div class="row justify-content-center "><i class="fas fa-check"></i><div class="w-75 pl-1">Слои <span>кирамки</span> зашитит кузов вашего авто то дальнешего износа и придаст свежасти виду</div></div>
+					</div>
+				</div>
+		</div>
+		<div class="after container-fluid pl-0 pr-0">
+			
+		</div>
+	</main>
+</body>
+</html>
